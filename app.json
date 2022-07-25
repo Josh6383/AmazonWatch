@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "amazonwatch",
-    "slug": "amazonwatch",
+    "name": "AmazonWatch",
+    "slug": "AmazonWatch",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,13 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [],
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.josh6383.amazonwatch"
     },
     "web": {
       "favicon": "./assets/favicon.png"
