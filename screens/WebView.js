@@ -36,7 +36,7 @@ export default function AWView({route, navigation}){
                 'uid': uid
             })
         }
-        const response = await fetch('https://lavvr.pythonanywhere.com/amazonwatch', params)
+        const response = await fetch(webhookURL, params)
         .then(() => {
             if (response === '200'){
                 alert("We've added it to your watchlist!")
